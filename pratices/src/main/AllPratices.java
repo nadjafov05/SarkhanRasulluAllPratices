@@ -141,4 +141,34 @@ public class AllPratices {
         }
     }
 
+    //Methoda 4 reqem daxil edilir
+    // eger bu reqemlerden her hansisa 2-si bir birine beraberdirse geriye true qaytarsin
+
+    public static boolean reqemlerin2birbirineBereberdirse(int a,int b,int c,int d){
+        if (a == b || a == c || a == d){
+            return true;
+        }else if (b == a || b == c || b == d){
+            return true;
+        }else if (c == a || c == b || c == d){
+            return true;
+        }else if (d == a || d == b || d == c){
+            return true;
+        }else {
+            return false;
+        }
+//        return false;
+    }
+
+    //Methoda 4 reqem daxil edilir.a,b,c,d eger ededler artan
+    // ardicilliqla daxil edilibse geriye true qaytarsin eks halda false
+
+    public static boolean reqemlerinArdiciliqlaArtirilmasiniYoxlamaq(int a,int b,int c,int d){
+        if (a <= b && b <= c && c <= d){
+            return true;
+        }
+        return false;
+    }
+
+
+
 }
