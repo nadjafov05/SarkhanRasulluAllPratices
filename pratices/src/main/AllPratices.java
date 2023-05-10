@@ -169,6 +169,79 @@ public class AllPratices {
         return false;
     }
 
+    //Method bir String ve bir int qebul edir ve
+    // hemin String-in hemin index-inde olan simvolunu qaytarsin.
+
+    public static char returnStringInCharAtNumbers(String s,int i){
+        return s.charAt(i);
+    }
+
+    //Method 2 String qebul edir ve onlarin beraber olub olmadigini return edir true ve ya false
+    public static boolean StringinBirBiriIleDuzOlubOlmadiginiYoxlamag(String s,String a){
+        return s.equals(a);
+    }
+
+
+    //Method String s, char c, int count qebul edir. S-i count qeder c ile birleshdirir ve geriye return edir
+
+    public static String chariCountQederArtirStringeMenimset(String s,int count,char c){
+        for (int i=0;i<count;i++){
+            s+=c;
+        }
+        return s;
+    }
+
+    //Method 3 String qebul edir. String a, String b, String c. A ve b-nin ichinde c varsa onda true eks halda false
+    public static boolean gonderilenStringlerIcindeCstringiVarsa(String a,String b,String c){
+        if (a.contains(c) || b.contains(c)){
+            return true;
+        }
+        return false;
+    }
+
+    //method String a, int begin, int end daxil edilir. A-nin begin ve end arasini alt alta chap edir.
+
+    public static void stiringSozunAraliqi(String s,int begin,int end){
+        for (int i=0;i<s.length();i++){
+            System.out.println(s.charAt(i));
+        }
+    }
+
+    //2 soz daxil edilir uzunlugu boyuk olan String geriye return edilir.
+    public static String uzunluguOlanStringReturnEdir(String str,String str2){
+        int a = str.length();
+        int b = str2.length();
+
+        if (a >= b){
+            return str;
+        }else {
+            return str2;
+        }
+    }
+
+    //Ele bir method yazin ki: HeLLo WorlD-> chevrilsin olsun hEllO wORLd.
+
+    public static void balacalariBoyuyeBoyukleriBalacayaCevirme(String str){
+        String modified = "";
+
+        for (int i=0;i<str.length();i++){
+            char c = str.charAt(i);
+            if (Character.isUpperCase(c)) {
+                modified+=Character.toLowerCase(c);
+            }else {
+                modified+=Character.toUpperCase(c);
+            }
+        }
+        System.out.println(modified);
+    }
+
+    //”     Salam necesen ishler nece gedir      “ metnini “Salam necesen ishler nece gedir” halina getirin.
+    public static void solSagBosluqlariniSilmek(String str){
+        System.out.println(str.trim());
+    }
+
+
+
 
 
 }

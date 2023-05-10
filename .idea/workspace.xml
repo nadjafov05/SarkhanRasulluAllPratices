@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f1de6b28-fa38-4aff-9577-1aefccc3fdbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SarkhanTeacherPraticeMoth1/main/AllPratices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SarkhanTeacherPraticeMoth1/main/AllPratices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SarkhanTeacherPraticeMoth1/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SarkhanTeacherPraticeMoth1/main/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pratices" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,6 +61,8 @@
       <workItem from="1683227709991" duration="150000" />
       <workItem from="1683227997327" duration="4081000" />
       <workItem from="1683623279751" duration="3024000" />
+      <workItem from="1683738947649" duration="6338000" />
+      <workItem from="1683748169757" duration="1577000" />
     </task>
     <servers />
   </component>
